@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Taqueria 🌮</title>
+</head>
+<body>
+    <header>
+        <h1>TAQUERÍA EL PUERQUITO 🐷</h1>
+        <h2><i>¡MÁS GRASOSOS MÁS SABROSOS!</i></h2> 
+        <img src="cerdo.png" width="33%" alt="cerdo_dibujo">
+    </header>
+    <main>
+        <section>
+            <h2>MENÚ</h2>
+            <img src="tacos.png" width="33%" alt="taco_emoji">
+            <h3>TACOS: LOS BÁSICOS Y POPULARES</h3>
+            <ul>
+            <li>Suadero.....$18.00</li>
+            <li>Pastor.......$18.00</li>
+            <li>Longaniza.....$18.00</li>
+            <li>Campechano......$18.00</li>
+            <li>Tripa.........$18.00</li>
+            <li>Lengua........$20.00</li>
+            <li>Bistec........$20.00</li>
+            </ul>
+            <h3>ESPECIALIDADES: LOS MÁS LLENADORES</h3>
+            <dl>
+            <dt>Gringa.....$45.00 <dd>Tortilla de harina con quesillo y pastor</dd></dt>
+            <dt>Volcanes.....$50.00 <dd>Tortilla de maiz frita con quesillo y carne</dd> </dt>
+            <dt>Alambre......$100.00<dd>Carne de tu preferencia: Suadero, Pastor, Bistec con quesillo, pimiento y cebolla</dd></dt>
+            <dt>Torta........$65.00<dd>Bolillo relleno de carne de tu preferencia: Suadero, Pastor, Bistec con aguacate y quesillo</dd></dt>
+            </dl>
+            <table border width="30%">
+                <tr>
+                <th colspan="4">BEBIDAS</th>
+                <th>PRECIO</th>
+                </tr>
+                <tr>
+                <td>Refresco</td>
+                <td>Coca-Cola</td>
+                <td>Sprite</td>
+                <td>Manzania</td>
+                <td>$25.00</td>
+                </tr>
+                <tr>
+                <td>Cerveza</td>
+                <td>Victoria</td>
+                <td>Modelo</td>
+                <td>Corona</td>
+                <td>$50.00</td>
+                </tr>
+                <tr>
+                <td rowspan="2">Agua</td>
+                <td>Combinadas</td>
+                <td>Pepino con limón</td>
+                <td>Mango con naranja</td>
+                <td>$30.00</td>
+                </tr>
+                <tr>
+                <td>Tradicional</td>
+                <td>Jamaica</td>
+                <td>Horchata</td>
+                <td>$20.00</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>¡Ordena ahora!</h2>
+            <form action="https://formspree.io/f/xeqwkvaa" method="post" >
+            Nombre: <input type="text" placeholder="Nombre Apellido" name="nombre_cliente"><br>
+            Dirección : <input type="text" placeholder="Calle, Numero, Alcaldia" size="30" name="direccion_cliente"><br>
+            Telefono: <input type="tel" value="52" minlength="10" maxlength="10" name="telefono_cliente"><br>
+            Correo Electronico <input type="email" size="25" name="correo_cliente"><br>
+            <hr>
+            <b>Orden 1</b><br> Taco <select name="taco1">
+                <option value="nulo">-----</option><br>
+                <option value="suadero">Suadero</option><br>
+                <option value="longaniza">Longaniza</option><br>
+                <option value="campechano">Campechano</option><br>
+                <option value="tripa">Tripa</option><br>
+                <option value="lengua">Lengua</option><br>
+                <option value="bistec">Bistec</option><br>
+            </select>
+            Cantidad: <input type="number" min="1" max="50" name="cantidad_taco1"><br>
+            Complementos : <input type="radio" name="cebolla1" value="cebolla">Cebolla
+            <input type="radio" name="cilantro1" value="cilantro">Cilantro 
+            <input type="radio" name="limon1" value="limon">Limon <br>
+            Salsa: <input type="radio" name="salsa1" value="verde">Verde 
+            <input type="radio" name="salsa1" value="roja">Roja 
+            <hr>
+            <b>Orden 2</b><br> Taco <select name="taco2" id="">
+                <option value="nulo">-----</option><br>
+                <option value="suadero">Suadero</option><br>
+                <option value="longaniza">Longaniza</option><br>
+                <option value="campechano">Campechano</option><br>
+                <option value="tripa">Tripa</option><br>
+                <option value="lengua">Lengua</option><br>
+                <option value="bistec">Bistec</option><br>
+            </select>
+            Cantidad: <input type="number" min="1" max="50" name="cantidad_taco2"><br>
+            Complementos : <input type="radio" name="cebolla2" value="cebolla">Cebolla
+            <input type="radio" name="cilantro2" value="cilantro">Cilantro 
+            <input type="radio" name="limon2" value="limon">Limon <br>
+            Salsa: <input type="radio" name="salsa2" value="verde">Verde 
+            <input type="radio" name="salsa2" value="roja">Roja 
+            <hr>
+            <b>Orden 3</b><br> Taco <select name="taco3" id="">
+                <option value="nulo">-----</option><br>
+                <option value="suadero">Suadero</option><br>
+                <option value="longaniza">Longaniza</option><br>
+                <option value="campechano">Campechano</option><br>
+                <option value="tripa">Tripa</option><br>
+                <option value="lengua">Lengua</option><br>
+                <option value="bistec">Bistec</option><br>
+            </select>
+            Cantidad: <input type="number" min="1" max="50" name="cantidad_taco3"><br>
+            Complementos : <input type="radio" name="cebolla3" value="cebolla">Cebolla
+            <input type="radio" name="cilantro3" value="cilantro">Cilantro 
+            <input type="radio" name="limon3" value="limon">Limon <br>
+            Salsa: <input type="radio" name="salsa3" value="verde">Verde 
+            <input type="radio" name="salsa3" value="roja">Roja 
+            <hr>
+            Especialidad <select name="especial" >
+                <option value="nulo">-----</option>
+                <option value="gringa">Gringa</option>
+                <option value="volcan">Volcan</option>
+                <option value="alambre">Alambre</option>
+                <option value="torta">Torta</option>
+            </select>
+            Ingrediente <select name="ingrediente_especial">
+                <option value="nulo">----</option>
+                <option value="suadero">Suadero</option>
+                <option value="pastor">Pastor</option>
+                <option value="bistec">Bistec</option>
+            </select>
+            Cantidad: <input type="number" min="1" max="50" name="cantidad_especial"><br>
+            <hr>
+                <input type="submit" value="Ordenar"> <br>
+                <input type="reset" value="Borrar">
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <p>Telefeno:5521145698</p> <p>Direccion: Lorezno Boturini, 34. Alcaldia cuauhtemoc</p>
+    </footer>
+</body>
+</html>
